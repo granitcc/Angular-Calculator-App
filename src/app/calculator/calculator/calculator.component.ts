@@ -16,7 +16,6 @@ export class CalculatorComponent implements OnInit {
   ngOnInit() {}
 
   getNumber(value: string) {
-    console.log(value);
     if (this.waitForSecondNumber) {
       this.currentNumber = value;
       this.waitForSecondNumber = false;
